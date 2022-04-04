@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+</head>
+<body>
+    <h1> Calificación on-line</h1>
+    <p>
+        Hoy calificamos a:
+    </p>
+    <form action="/bdd/actualizar" method="post">
+        <table border="1">
+            <tr>
+            <th>Numero</th>
+            <th>Seminario</th>
+            <th>Presenta</th>
+            <th>Utilidad</th>
+            <th>Calidad</th>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">Seminario 1</td>
+                <td align="center">Piña</td>
+                <td align="center"><input type="number" min="0" max="10"></td>
+                <td align="center"><input type="number" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td align="center">Seminario 2</td>
+                <td align="center"> Jaime </td>
+                <td align="center"><input type="number" min="0" max="10"></td>
+                <td align="center"><input type="number" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td align="center">Seminario 3</td>
+                <td align="center"> Koke </td>
+                <td align="center"><input type="number" min="0" max="10"></td>
+                <td align="center"><input type="number" min="0" max="10"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
